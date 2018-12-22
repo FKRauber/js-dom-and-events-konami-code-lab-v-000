@@ -5,5 +5,12 @@ function init() {
 
   document.body.addEventListener('keydown', function(e) {
     const key = parseInt(e.which || e.detail);
+
+    if (code[i] === key){
+      i++;
+      if (i === code.length) {
+        alert('UUDDLRLRBA - Thank you for purchasing this game')
+      }
+    }
   })
 }
