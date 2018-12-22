@@ -9,7 +9,10 @@ function init() {
     if (code[i] === key){
       i++;
       if (i === code.length) {
-        alert('UUDDLRLRBA - Thank you for purchasing this game')
+        alert('UUDDLRLRBA - Thank you for purchasing this game');
+        i = 0;
+      } else {
+        i = 0;
       }
     }
   })
